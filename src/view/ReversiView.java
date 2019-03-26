@@ -279,9 +279,4 @@ public class ReversiView extends javafx.application.Application implements Obser
 			score.setText("White: " + observableBoard.getHumanCount() + " - Black: " + observableBoard.getComputerCount());
 		}
 	}
-	
-	public static void main(String[] args) {
-		launch(args);
-	}
-
 }
